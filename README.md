@@ -1,11 +1,20 @@
-# Cinema app
+# Multiplex app
 
 This application was created to simulate simple multiplex cinema ticket flow.
 
 It's written with high-level technologies such as Hibernate and Spring and is based on SOLID and REST architectural principles.
 
 ### Implementation details
-*Multiple endpoints with different access rights*
+Multiple endpoints with different access rights*
+
+
+### Technologies used
+* Java
+* Apache Tomcat
+* Hibernate
+* MySQL
+* Spring: Spring Core, Spring Web, Spring Security
+* Postman API tool
 
 #### Endpoints before authentication:
 * POST: /register - register new user
@@ -33,19 +42,8 @@ For USER role only:
 
 All data is stored in the MySQL database.
 
-### Technologies used
-* Java
-* Apache Tomcat
-* Hibernate
-* MySQL
-* Spring: Spring Core, Spring Web, Spring Security
-* Postman API tool
-
 ### Useful tips
 * Initially you will have user ```user@gmail.com``` will be created during tests
 * Simple restart application after tests to remove test data.
 * Check ```src/main/java/multiplex/config/DataInitializer.java```. You can redact it if you need
 * Check Postman collection requests bodies and URLs. You will see JSON formats needed here
-
-### Good Luck
-Enjoy and good luck! :)
