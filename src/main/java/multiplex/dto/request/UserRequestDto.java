@@ -2,7 +2,6 @@ package multiplex.dto.request;
 
 import multiplex.lib.FieldsValueMatch;
 import multiplex.lib.ValidEmail;
-
 import javax.validation.constraints.Size;
 
 @FieldsValueMatch(
